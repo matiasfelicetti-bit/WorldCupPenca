@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados | World Cup Penca</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#001f54,#003b8e);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:25px;
+    background:rgba(0,0,0,.2);
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px 0;
+}
+
+.partido{
+    background:rgba(255,255,255,.1);
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.equipos{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.estado{
+    margin-top:15px;
+    text-align:center;
+    font-size:18px;
+}
+
+.vivo{
+    color:#00ff66;
+}
+
+.finalizado{
+    color:#ffd700;
+}
+
+.proximo{
+    color:#87cefa;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>⚽ Resultados del Mundial 2026</h1>
+</header>
+
+<div class="container">
+
+<div class="partido">
+<div class="equipos">
+<span>🇩🇪 Alemania</span>
+<span>0 - 1</span>
+<span>🇨🇮 Costa de Marfil</span>
+</div>
+<div class="estado vivo">
+🔴 En vivo - Minuto 73
+</div>
+</div>
+
+<div class="partido">
+<div class="equipos">
+<span>🇳🇱 Países Bajos</span>
+<span>5 - 1</span>
+<span>🇸🇪 Suecia</span>
+</div>
+<div class="estado finalizado">
+✅ Finalizado
+</div>
+</div>
+
+<div class="partido">
+<div class="equipos">
+<span>🇪🇨 Ecuador</span>
+<span>VS</span>
+<span>🇨🇼 Curazao</span>
+</div>
+<div class="estado proximo">
+🕒 Hoy 21:00
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
